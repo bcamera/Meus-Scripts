@@ -1,0 +1,1 @@
+1.Script que altera nos registros do Windows o autoExecutar(auto run) e modo de leitura/escrita de USB e CD.
