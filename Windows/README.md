@@ -1,1 +1,2 @@
-1.Script que altera nos registros do Windows o autoExecutar(auto run) e modo de leitura/escrita de USB e CD.
+1.(usbReadOnly) Script que altera nos registros do Windows o autoExecutar(auto run) e modo de leitura/escrita de USB e CD.
+2.(primeiraExecucaoWindows) Script que instala programas úteis e programas que gosto no Windows pelo terminal num estilo apt-get install (chocolate).
