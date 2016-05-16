@@ -1,7 +1,10 @@
-﻿1.atualizar-e-limpar: Script para primeira execução do Linux (baseado em Debian ou Ubuntu) para instalação de programas principais, atualização e limpeza.
+Script | Função
+-------|-------
+atualizar-e-limpar | Script para primeira execução do Linux (baseado em Debian ou Ubuntu) para instalação de programas principais, atualização e limpeza.
+-- | Desafio-STI
+busca-ip-incidente | Desafio-Graco
 
-
-2.Desafio-STI ()
+#####Desafio-STI:
 O DNS  utilizado para mapear nomes em registros de dados (ex: IPs, outros nomes, etc). A segurança do DNS pode ser incrementada com uso de DNSSEC, inclusive para garantia de no existncia de um nome, atravs do uso do tipo NSEC. Utilizando as ferramentas de consultas de DNS e o tipo de registro NSEC, escreva um script em shell-script (Linux / bash) ou windows batch (Windows) que, dado um domnio, liste todos os nomes daquele domnio. Opcionalmente, destaque os nomes que possuem endereço IPv6 associado. Exemplo (com destaque para ipv6):
 
 prompt$ ./lista-nomes-dns.sh foobar.exemplo.com
@@ -34,8 +37,9 @@ cert.bahia.pop-ba.rnp.br
 
 Dica: consulte o DNS do google (8.8.8.8 ou 8.8.4.4)
 
+-------------------------------------------------------------------------------------------------------------------------------
 
-3.Desafio Graco (busca-ip-incidente)
+#####Desafio-Graco:
 O tratamento de incidentes de segurança é divido em diversas fases,
 cada uma com um conjunto de atividades específicas. Uma das fases é
 conhecida como identificação, onde em uma rede com NAT deve-se buscar
