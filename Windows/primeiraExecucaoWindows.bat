@@ -22,8 +22,6 @@ if '%errorlevel%' NEQ '0' (
 
 @powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
 
-REM choco install chocolatey -y
-
 echo "Navegadores"
 choco install tor-browser -y
 choco install googlechrome -y 
@@ -32,7 +30,7 @@ choco install adblockplus-firefox  -y
 
 echo "Essenciais"
 choco install dotnet4.0  -y
-choco install choco install dotnet4.5.2  -y
+choco install dotnet4.5.2  -y
 choco install silverlight  -y
 REM choco install adobeshockwaveplayer  -y
 choco install flashplayerplugin  -y
@@ -56,12 +54,11 @@ echo "Desenvolvimento"
 choco install winmerge  -y
 choco install jdk8  -y
 REM choco install android-sdk  -y
-choco install git.install -arams "/GitAndUnixToolsOnPath /NoAutoCrlf" -y
+choco install git.install -params "/GitAndUnixToolsOnPath /NoAutoCrlf" -y
 choco install eclipse -y
 
-echo "Conex„o Remota"
+echo "Conex√£o Remota"
 choco install teamviewer  -y
-choco install openssl.light  -y
 
 echo "Limpeza"
 choco install ccleaner -y
