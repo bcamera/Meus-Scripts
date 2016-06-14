@@ -91,3 +91,9 @@ choco install veracrypt  -y
 echo "Virtualizacao"
 choco install vmwareplayer  -y
 choco install virtualbox  -y
+
+echo "Gaming"
+choco install teamspeak -y
+choco install steam -y
+REM choco install origin -y (still waiting for approval)
+choco install battle.net -y
