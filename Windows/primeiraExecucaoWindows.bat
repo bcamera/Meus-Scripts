@@ -79,6 +79,7 @@ choco install handbrake.install -y
 
 echo "Utilidade publica"
 choco install sudo -y
+choco install Everything -y
 
 echo "Vpn"
 choco install openvpn -y
