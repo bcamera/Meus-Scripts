@@ -42,6 +42,7 @@ choco install dogtail.dotnet3.5sp1 -y
 choco install vcredist2013  -y
 choco install vcredist2008  -y
 choco install vcredist2005  -y
+choco install utorrent -y
 
 echo "Escritorio" 
 choco install libreoffice  -y
