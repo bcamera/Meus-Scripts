@@ -3,6 +3,7 @@ Script | Função
 atualizar-e-limpar | Script para primeira execução do Linux (baseado em Debian ou Ubuntu) para instalação de programas principais, atualização e limpeza.
 -- | Desafio-STI https://github.com/bcamera/Meus-Scripts/tree/master/Linux#desafio-sti
 busca-ip-incidente | Desafio-Graco https://github.com/bcamera/Meus-Scripts/tree/master/Linux#desafio-graco
+instalar_zabbix_server | Sript de instalação e configuração do zabbix server 2.4 no SO Debian 8
 
 #####Desafio-STI:
 O DNS  utilizado para mapear nomes em registros de dados (ex: IPs, outros nomes, etc). A segurança do DNS pode ser incrementada com uso de DNSSEC, inclusive para garantia de no existncia de um nome, atravs do uso do tipo NSEC. Utilizando as ferramentas de consultas de DNS e o tipo de registro NSEC, escreva um script em shell-script (Linux / bash) ou windows batch (Windows) que, dado um domnio, liste todos os nomes daquele domnio. Opcionalmente, destaque os nomes que possuem endereço IPv6 associado. Exemplo (com destaque para ipv6):
