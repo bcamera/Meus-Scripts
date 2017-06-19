@@ -27,8 +27,10 @@ choco install tor-browser -y
 choco install googlechrome -y 
 choco install firefox -packageParameters "l=pt-BR" -y 
 choco install adblockplus-firefox  -y
+choco install vivaldi -y
 
 echo "Essenciais"
+choco install cmder -y
 choco install dotnet4.0  -y
 choco install dotnet4.5.2  -y
 choco install silverlight  -y
@@ -42,7 +44,7 @@ choco install dogtail.dotnet3.5sp1 -y
 choco install vcredist2013  -y
 choco install vcredist2008  -y
 choco install vcredist2005  -y
-choco install utorrent -y
+choco install winpcap -y
 
 echo "Escritorio" 
 choco install libreoffice  -y
@@ -60,23 +62,25 @@ choco install eclipse -y
 
 echo "Conexão Remota"
 choco install teamviewer  -y
+choco install putty.install -y
 
 echo "Limpeza"
-choco install ccleaner -y
-REM choco install eraser -y
+REM choco install ccleaner -y
+choco install eraser -y
 
 echo "Multimidia"
 choco install k-litecodecpackfull -y
 
 echo "InfoSistema"
 choco install cpu-z -y
+choco install hwmonitor -y
 
 echo "UsbBoot"
 choco install yumi -y
 choco install rufus.install -y
 
 echo "Edicao de Video"
-choco install handbrake.install -y
+REM choco install handbrake.install -y
 
 echo "Utilidade publica"
 choco install sudo -y
@@ -92,9 +96,20 @@ choco install veracrypt  -y
 echo "Virtualizacao"
 choco install vmwareplayer  -y
 choco install virtualbox  -y
+choco install vagrant -y
 
 echo "Gaming"
 choco install teamspeak -y
 choco install steam -y
-REM choco install origin -y (still waiting for approval)
-choco install battle.net -y
+REM choco install origin -y
+
+echo "Nuvem"
+REM choco install dropbox -y
+REM choco install googledrive -y
+
+echo "VOIP"
+choco install discord -y
+choco install teamspeak -y
+
+echo "Monitoramento"
+REM choco install glasswire -y (waiting for approval)
