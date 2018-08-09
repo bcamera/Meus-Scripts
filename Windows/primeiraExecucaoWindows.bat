@@ -26,7 +26,7 @@ if '%errorlevel%' NEQ '0' (
 
 echo "Navegadores"
 choco install tor-browser -y
-choco install googlechrome -y 
+choco install google-chrome-x64 -y
 choco install firefox -packageParameters "l=pt-BR" -y 
 choco install adblockplus-firefox  -y
 choco install vivaldi -y
